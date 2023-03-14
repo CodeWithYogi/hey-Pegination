@@ -101,7 +101,7 @@ button{
 }
 @media screen and (max-width: 486px){
     .container{
-        min-width: 300px;
+        min-width: 250px;
         padding: .3em .5em;
 }
 h1{
