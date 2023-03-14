@@ -40,7 +40,7 @@ button{
     margin-top: 3em;
 }
 .container{
-    min-width: 500px;
+    min-width: 600px;
     padding: .5em 1em;
 }
 .flex__container{
@@ -90,12 +90,24 @@ button{
     color: rgb(227, 233, 238);
     text-transform: uppercase;
 }
-@media screen and (min-width: 625px){
+@media screen and (max-width: 625px){
     .container{
-            min-width: 700px;
+            min-width: 500px;
             padding: 1em 2em;
     }
     .list__item{
         font-size: .7rem;
     }
+}
+@media screen and (max-width: 486px){
+    .container{
+        min-width: 300px;
+        padding: .3em .5em;
+}
+h1{
+    font-size: 1rem;
+}
+p{
+    font-size: .8rem;
+}
 }
